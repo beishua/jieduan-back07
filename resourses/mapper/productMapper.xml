@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.wanxi.dao.ProductDao">
+    <insert id="add">
+        insert into product (title,imgHref,pice,program_id,contentForDetailed)
+        values(#{title},#{imgHref},#{content},#{programId},#{contentForDetailed})
+    </insert>
+    <select id="findById" parameterType="java.lang.Integer" resultMap="gg">
+        select * from product where id=#{id}
+    </select>
+    <resultMap id="gg" type="com.cn.wanxi.model.ProductModel">
+        <result property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="imgHref" column="imgHref"/>
+        <result property="content" column="pice"/>
+        <result property="programId" column="program_id"/>
+    </resultMap>
+    <update id="update">
+        update product set
+        <if test="title!=null || title!=''">
+            title=#{title},
+        </if>
+        <if test="imgHref!=null || imgHref!=''">
+            imgHref=#{imgHref},
+        </if>
+        <if test="content!=null || content!=''">
+            pice=#{content},
+        </if>
+        <if test="contentForDetailed!=null || contentForDetailed!=''">
+            contentForDetailed=#{contentForDetailed},
+        </if>
+        remark='' where id=#{id}
+    </update>
+    <delete id="del">
+        delete from product where id=#{id}
+    </delete>
+    <select id="getCount" parameterType="com.cn.wanxi.model.ProductModel" resultType="java.lang.Integer">
+        select count(*) count from product a,tab_program b where a.program_id=b.id
+    </select>
+    <select id="findAllBySome" parameterType="com.cn.wanxi.model.ProductModel" resultMap="dd">
+        select * from product where 1=1
+        <if test="title!=null and title!=''">
+            and title like concat('%',#{title},'%')
+        </if>
+        <if test="imgHref!=null and imgHref!=''">
+            and imgHref like concat('%',#{imgHref},'%')
+        </if>
+        <if test="content!=null and content!=''">
+            and pice like concat('%',#{content},'%')
+        </if>
+        <if test="contentForDetailed!=null and contentForDetailed!=''">
+            and contentForDetailed like concat('%',#{contentForDetailed},'%')
+        </if>
+        <bind name="pageNum" value="(pageModel.pageNum-1)*pageModel.pageSize"/>
+        limit #{pageNum},#{pageModel.pageSize}
+    </select>
+    <resultMap id="dd" type="com.cn.wanxi.model.ProductModel">
+        <result property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="imgHref" column="imgHref"/>
+        <result property="content" column="pice"/>
+        <result property="contentForDetailed" column="contentForDetailed"/>
+        <result property="programId" column="program_id"/>
+    </resultMap>
+    <select id="getList" parameterType="com.cn.wanxi.model.ProductModel" resultType="com.cn.wanxi.model.ProductModel">
+        select * from product
+    </select>
+    <select id="getLista" parameterType="com.cn.wanxi.model.ProductModel" resultType="com.cn.wanxi.model.ProductModel">
+        select * from tab_program
+    </select>
+    <select id="getListb" parameterType="com.cn.wanxi.model.ProductModel" resultType="com.cn.wanxi.model.ProductModel">
+        select * from product
+    </select>
+    <select id="findByIdForDetailPage" parameterType="com.cn.wanxi.model.ProductModel" resultType="com.cn.wanxi.model.ProductModel">
+        select * from product where id=(select max(id) from product where id&lt;#{id})union select * from product where id=#{id} union
+        select * from product where id=(select min(id) from product where id>#{id})
+    </select>
+    <select id="findAllByTypeId" parameterType="com.cn.wanxi.model.ProductModel" resultType="com.cn.wanxi.model.ProductModel">
+        select * from product where program_id=#{programId}
+    </select>
+</mapper>

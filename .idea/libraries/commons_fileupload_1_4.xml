@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="commons-fileupload-1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/commons-fileupload-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/druid-1.1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/fastjson-1.2.72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/jedis-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/mybatis-3.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/mysql-connector-java-8.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ilb/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.wanxi.dao.IUserDao">
+    <select id="findByUsername" parameterType="java.lang.String" resultType="com.cn.wanxi.model.UserModel">
+        select * from user where username=#{username}
+    </select>
+    <insert id="add">
+        insert into user(username,password,phone,sex,birthday,hobby,introduce)
+        values(#{username},#{password},#{phone},#{sex},#{birthday},#{hobby},#{introduce})
+    </insert>
+    <select id="isHaveFindByUsernameAndPassword" parameterType="com.cn.wanxi.model.UserModel" resultType="com.cn.wanxi.model.UserModel">
+        select * from user where username=#{username} and password=#{password}
+    </select>
+    <select id="getCount" resultType="java.lang.Integer" parameterType="com.cn.wanxi.model.UserModel">
+        select * from user where 1=1
+        <if test="username!='' and username!=null">
+            and username like concat('%',#{username},'%')
+        </if>
+        <if test="sex!='全部' and sex!=null">
+            and sex =#{sex}
+        </if>
+        <if test="phone!='' and phone!=null">
+            and phone like concat('%',#{phone},'%')
+        </if>
+        <if test="startBirthday!='' and endBirthday==''">
+            and birthday &gt;=#{startBirthday}
+        </if>
+        <if test="startBirthday=='' and endBirthday!=''">
+            and birthday &lt;=#{endBirthday}
+        </if>
+        <if test="startBirthday!='' and endBirthday!=''">
+            and birthday between #{startBirthday} and #{endBirthday}
+        </if>
+        <if test="introduce!='' and introduce!=null">
+            and introduce like concat('%',#{introduce},'%')
+            <!--            <![CDATA[ >= ]]>-->
+        </if>
+        <if test="hobby!=''">
+            <foreach collection="hobbys" item="hobby" index="index">
+                <if test="index==0">
+                    and find_in_set(#{hobby},hobby)
+                </if>
+                <if test="index!=0">
+                    or find_in_set(#{hobby},hobby)
+                </if>
+            </foreach>
+        </if>
+    </select>
+    <select id="findAllBySome" parameterType="com.cn.wanxi.model.UserModel" resultType="com.cn.wanxi.model.UserModel">
+        select * from user where 1=1
+    <if test="username!='' and username!=null">
+        and username like concat('%',#{username},'%')
+    </if>
+    <if test="sex!='全部' and sex!=null">
+        and sex =#{sex}
+    </if>
+    <if test="phone!='' and phone!=null">
+        and phone like concat('%',#{phone},'%')
+    </if>
+    <if test="startBirthday!='' and endBirthday==''">
+        and birthday &gt;=#{startBirthday}
+    </if>
+    <if test="startBirthday=='' and endBirthday!=''">
+        and birthday &lt;=#{endBirthday}
+    </if>
+    <if test="startBirthday!='' and endBirthday!=''">
+        and birthday between #{startBirthday} and #{endBirthday}
+    </if>
+    <if test="introduce!='' and introduce!=null">
+        and introduce like concat('%',#{introduce},'%')
+        <!--            <![CDATA[ >= ]]>-->
+    </if>
+    <if test="hobby!=''">
+        <foreach collection="hobbys" item="hobby" index="index">
+            <if test="index==0">
+                and find_in_set(#{hobby},hobby)
+            </if>
+            <if test="index!=0">
+                or find_in_set(#{hobby},hobby)
+            </if>
+        </foreach>
+    </if>
+    <bind name="pageNum" value="(pageModel.pageNum-1)*pageModel.pageSize"/>
+    limit #{pageNum},#{pageModel.pageSize}
+    </select>
+    <delete id="delete">
+        delete from user where id=#{id}
+    </delete>
+    <select id="findById" parameterType="java.lang.Integer" resultMap="gg">
+        select * from user where id=#{id}
+    </select>
+    <resultMap id="gg" type="com.cn.wanxi.model.UserModel">
+        <result property="id" column="id"/>
+        <result property="birthday" column="birthday"/>
+        <result property="username" column="username"/>
+        <result property="introduce" column="introduce"/>
+        <result property="hobby" column="hobby"/>
+        <result property="sex" column="sex"/>
+        <result property="phone" column="phone"/>
+<!--        <result property="username" column="username"/>-->
+    </resultMap>
+    <update id="edit">
+        update user set
+        <if test="username!='' || username!=null">
+            username=#{username},
+        </if>
+        <if test=" password!='' || password!=null">
+            password=#{password},
+        </if>
+        <if test=" sex!='' || sex!=null">
+            sex=#{sex},
+        </if>
+        <if test=" birthday!='' || birthday!=null">
+            birthday=#{birthday},
+        </if>
+        <if test=" hobby!='' || hobby!=null">
+            hobby=#{hobby},
+        </if><if test=" phone!='' || phone!=null">
+            phone=#{phone},
+    </if><if test=" introduce!='' || introduce!=null">
+            introduce=#{introduce},
+    </if>
+        remark=''
+        where id=#{id}
+    </update>
+</mapper>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.wanxi.dao.NavDao">
+    <select id="findAll" parameterType="com.cn.wanxi.model.NavModel" resultType="com.cn.wanxi.model.NavModel">
+        select * from nav
+        <bind name="pageNum" value="(pageModel.pageNum-1)*pageModel.pageSize"/>
+        limit #{pageNum},#{pageModel.pageSize}
+    </select>
+    <select id="getCount" parameterType="com.cn.wanxi.model.NavModel" resultType="java.lang.Integer">
+        select count(*) count from nav
+    </select>
+    <insert id="add">
+        insert into nav (navName,navContent)
+        values(#{navName},#{navContent})
+    </insert>
+    <select id="findAllBySome" parameterType="com.cn.wanxi.model.NavModel" resultType="com.cn.wanxi.model.NavModel">
+        select * from nav where 1=1
+        <if test="navName!=null and navName!=''">
+            and navName like concat('%',#{navName},'%')
+        </if>
+        <if test="navContent!=null and navContent!=''">
+            and navContent like concat('%',#{navContent},'%')
+        </if>
+        <bind name="pageNum" value="(pageModel.pageNum-1)*pageModel.pageSize"/>
+        limit #{pageNum},#{pageModel.pageSize}
+    </select>
+    <select id="findById" parameterType="java.lang.Integer" resultType="com.cn.wanxi.model.NavModel">
+        select * from nav where id=#{id}
+    </select>
+    <delete id="del">
+        delete from nav where id=#{id}
+    </delete>
+    <select id="getList" parameterType="com.cn.wanxi.model.NavModel" resultType="com.cn.wanxi.model.NavModel">
+        select navContent href,navName title from nav
+    </select>
+    <update id="edit">
+        update nav set
+        <if test="navName!=null || navName!=''">
+            navName=#{title},
+        </if>
+        <if test="navContent!=null || navContent!=''">
+            navContent=#{href},
+        </if>
+<!--        navName=#{title},-->
+<!--        navContent=#{href},-->
+        remark='' where id=#{id}
+    </update>
+</mapper>

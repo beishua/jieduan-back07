@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.wanxi.dao.TrainDao">
+    <insert id="add">
+        insert into tab_train (name,picture,content)
+        values(#{trainname},#{picture},#{content})
+    </insert>
+    <delete id="del">
+        delete from tab_train where id=#{id}
+    </delete>
+    <select id="findById" parameterType="java.lang.Integer" resultMap="gg">
+        select * from tab_train where id=#{id}
+    </select>
+    <resultMap id="gg" type="com.cn.wanxi.model.TrainModel">
+        <result property="id" column="id"/>
+        <result property="trainname" column="name"/>
+        <result property="content" column="content"/>
+    </resultMap>
+    <update id="edit">
+        update tab_train set
+        <if test="trainname!='' || trainname!=null">
+            name=#{trainname},
+        </if>
+        <if test="picture!='' || picture!=null">
+            picture=#{picture},
+        </if>
+        <if test="content!='' || content!=null">
+            content=#{content},
+        </if>
+        remark='' where id=#{id}
+    </update>
+    <select id="getCount" parameterType="com.cn.wanxi.model.TrainModel" resultType="java.lang.Integer">
+        select count(*) count from tab_train
+    </select>
+    <select id="findAllBySome" parameterType="com.cn.wanxi.model.TrainModel" resultMap="dd">
+        select * from tab_train where 1=1
+        <if test="trainname!='' and trainname!=null">
+            and name like concat('%',#{trainname},'%')
+        </if>
+        <if test="picture!='' and picture!=null">
+            and picture like concat('%',#{picture},'%')
+        </if>
+        <if test="content!='' and content!=null">
+            and content like concat('%',#{content},'%')
+        </if>
+        <bind name="pageNum" value="(pageModel.pageNum-1)*pageModel.pageSize"/>
+        limit #{pageNum},#{pageModel.pageSize}
+    </select>
+    <resultMap id="dd" type="com.cn.wanxi.model.TrainModel">
+        <result property="id" column="id"/>
+        <result property="trainname" column="name"/>
+        <result property="content" column="content"/>
+        <result property="picture" column="picture"/>
+    </resultMap>
+    <select id="getList" parameterType="com.cn.wanxi.model.CoachModel" resultType="com.cn.wanxi.model.CoachModel">
+        select name nameForhomejsp,content positionForhomejsp,picture pictureForhomejsp from tab_train where is_show=1
+    </select>
+    <select id="getLista" parameterType="com.cn.wanxi.model.CoachModel" resultType="com.cn.wanxi.model.CoachModel">
+        select name nameForhomejsp,content positionForhomejsp,picture picture from tab_train where is_show=1
+    </select>
+    <select id="getListb" parameterType="com.cn.wanxi.model.CoachModel" resultType="com.cn.wanxi.model.CoachModel">
+        select name name01,content position01,picture picture01 from tab_train where is_show=2
+    </select>
+</mapper>
