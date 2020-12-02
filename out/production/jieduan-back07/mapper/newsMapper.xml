@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.wanxi.dao.NewsDao">
+    <insert id="add">
+        insert into news (newsTitle,newsContent)
+        values(#{newsHeadlines},#{newsContent})
+    </insert>
+    <select id="getCount" parameterType="com.cn.wanxi.model.NewsModel" resultType="java.lang.Integer">
+        select count(*) count from news
+    </select>
+    <delete id="del">
+        delete  from news where id=#{id}
+    </delete>
+    <select id="findById" parameterType="java.lang.Integer" resultMap="gg">
+        select * from news where id=#{id}
+    </select>
+        <resultMap id="gg" type="com.cn.wanxi.model.NewsModel">
+            <result property="id" column="id"/>
+            <result property="newsHeadlines" column="newsTitle"/>
+            <result property="newsContent" column="newsContent"/>
+        </resultMap>
+    <select id="findAllBySome" parameterType="com.cn.wanxi.model.NewsModel" resultMap="dd">
+        select * from news where 1=1
+        <if test="title!=null and title!=''">
+            and newsTitle like concat('%',#{title},'%')
+        </if>
+        <if test="content!=null and content!=''">
+            and newsContent like concat('%',#{content},'%')
+        </if>
+        <bind name="pageNum" value="(pageModel.pageNum-1)*pageModel.pageSize"/>
+        limit #{pageNum},#{pageModel.pageSize}
+    </select>
+    <resultMap id="dd" type="com.cn.wanxi.model.NewsModel">
+        <result property="id" column="id"/>
+        <result property="newsHeadlines" column="newsTitle"/>
+        <result property="newsContent" column="newsContent"/>
+    </resultMap>
+    <update id="update">
+        update news set
+        <if test=" newsContent!='' || newsContent!=null">
+            newsContent=#{newsContent}，
+        </if>
+        <if test=" newsHeadlines!='' || newsHeadlines!=null">
+            newsTitle=#{newsHeadlines},
+        </if>
+        remark=''
+        where id=#{id}
+    </update>
+    <select id="getList" parameterType="com.cn.wanxi.model.NewsModel" resultType="com.cn.wanxi.model.NewsModel">
+        select picture picture,newsTitle content,newsContent content01,date date from news where is_show=1
+    </select>
+
+    <select id="getLista" parameterType="com.cn.wanxi.model.NewsModel" resultType="com.cn.wanxi.model.NewsModel">
+        select newsTitle title05,newsContent content05,day day,year year ,id id from news where is_show=2
+    </select>
+
+    <select id="getListb" parameterType="com.cn.wanxi.model.NewsModel" resultType="com.cn.wanxi.model.NewsModel">
+        select * from newstype
+    </select>
+
+    <select id="findAllByNewsTypeId" parameterType="com.cn.wanxi.model.NewsModel" resultType="com.cn.wanxi.model.NewsModel">
+        select * from news where news_id=#{newsId}
+    </select>
+    <select id="getListc" parameterType="com.cn.wanxi.model.NewsModel" resultType="com.cn.wanxi.model.NewsModel">
+        select * from news
+    </select>
+    <select id="findByIdForNewsDetailPage" parameterType="com.cn.wanxi.model.NewsModel" resultType="com.cn.wanxi.model.NewsModel">
+        select * from news where id=(select max(id) from news where id&lt;#{id})union
+        select * from news where id=#{id} union
+        select * from news where id=(select min(id) from news where id>#{id})
+    </select>
+ </mapper>

@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jieduan-back07:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="551ed6c1-03c5-41ac-8987-056ac1930b06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/CompanyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/LeaveDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/MapsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/MessageDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/NavDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/NewsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/ProgramDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/TrainDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/impl/CompanyImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/impl/LeaveImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/impl/NavImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/impl/NewsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/impl/ProductImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/impl/ProgramImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/impl/TrainImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/dao/impl/UserImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/CoachModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/CompanyModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/LeaveModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/MapsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/NavModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/NewsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/PageModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/ProductModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/ProgramModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/TrainModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/UserModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/show/CoachModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/show/CompanyModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/show/NavModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/show/NewsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/model/show/ProductModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/ICompanyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/ILeaveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/INavService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/INewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/IProgramService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/ITrainService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/impl/CompanyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/impl/LeaveServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/impl/NavServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/impl/NewsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/impl/ProgramServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/impl/TrainServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/show/CoachService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/show/CompanyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/show/MapsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/show/NavService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/show/NewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/service/show/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/UserRegisterServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/company/CompanyAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/company/CompanyDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/company/CompanyEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/company/CompanyFindAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/company/CompanyFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/company/CompanyFindBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/leave/leaveAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/leave/leaveDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/leave/leaveFindBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/nav/NavAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/nav/NavDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/nav/NavEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/nav/NavFindAllBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/nav/NavFindAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/nav/NavFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/news/DetailPage/NewsForDetailPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/news/DetailPage/NewsTypeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/news/NewsAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/news/NewsDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/news/NewsEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/news/NewsFindAllBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/news/NewsFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/product/DetailPage/ProductForDetailPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/product/DetailPage/ProductTypeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/product/ProductAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/product/ProductDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/product/ProductFindAllBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/product/ProductFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/product/ProductUpdateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/program/ProgramFindAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/show/CoachServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/show/CompanyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/show/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/show/MapsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/show/NewsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/show/ProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/train/TrainAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/train/TrainDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/train/TrainEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/train/TrainFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/train/TrainFindBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/user/ManageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/user/UserDeleteByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/user/UserEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/user/UserExitServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/user/UserFindAllBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/user/UserFindAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/servlet/user/UserFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/util/DruidDataSourceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/util/GetSQLSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/util/JDBC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/util/MyFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/com/cn/wanxi/util/Upload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/druid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mapper/companyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mapper/leaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mapper/navMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mapper/newsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mapper/productMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mapper/programMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mapper/trainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/classes/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/druid-1.1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/fastjson-1.2.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/jedis-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/ilb/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/druid-1.1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/fastjson-1.2.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/jedis-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jieduan_back07_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/CompanyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/LeaveDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/MapsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/MessageDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/NavDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/NewsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/ProgramDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/TrainDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/impl/CompanyImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/impl/LeaveImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/impl/NavImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/impl/NewsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/impl/ProductImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/impl/ProgramImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/impl/TrainImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/dao/impl/UserImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/CoachModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/CompanyModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/LeaveModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/MapsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/NavModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/NewsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/PageModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/ProductModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/ProgramModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/TrainModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/UserModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/show/CoachModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/show/CompanyModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/show/NavModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/show/NewsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/model/show/ProductModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/ICompanyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/ILeaveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/INavService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/INewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/IProgramService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/ITrainService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/impl/CompanyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/impl/LeaveServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/impl/NavServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/impl/NewsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/impl/ProgramServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/impl/TrainServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/show/CoachService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/show/CompanyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/show/MapsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/show/NavService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/show/NewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/service/show/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/UserRegisterServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/company/CompanyAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/company/CompanyDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/company/CompanyEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/company/CompanyFindAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/company/CompanyFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/company/CompanyFindBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/leave/leaveAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/leave/leaveDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/leave/leaveFindBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/nav/NavAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/nav/NavDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/nav/NavEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/nav/NavFindAllBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/nav/NavFindAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/nav/NavFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/news/DetailPage/NewsForDetailPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/news/DetailPage/NewsTypeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/news/NewsAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/news/NewsDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/news/NewsEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/news/NewsFindAllBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/news/NewsFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/product/DetailPage/ProductForDetailPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/product/DetailPage/ProductTypeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/product/ProductAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/product/ProductDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/product/ProductFindAllBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/product/ProductFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/product/ProductUpdateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/program/ProgramFindAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/show/CoachServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/show/CompanyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/show/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/show/MapsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/show/NewsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/show/ProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/train/TrainAddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/train/TrainDelServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/train/TrainEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/train/TrainFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/train/TrainFindBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/user/ManageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/user/UserDeleteByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/user/UserEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/user/UserExitServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/user/UserFindAllBySomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/user/UserFindAllServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/user/UserFindByIdServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/util/DruidDataSourceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/util/GetSQLSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/util/JDBC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/util/MyFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/util/Upload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/druid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mapper/companyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mapper/leaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mapper/navMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mapper/newsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mapper/productMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mapper/programMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mapper/trainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/jieduan-back07/mybatis.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="jieduan-back07" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/news/DetailPage/NewsForDetailPageServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/train/TrainEditServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/impl/CompanyServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="43" column="71" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/ICompanyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/company/CompanyAddServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/company/CompanyDelServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/CompanyServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/show/CoachService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/CompanyServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/model/LeaveModel.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/ILeaveService.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/CompanyImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/LeaveImpl.java" />
+        <option value="$PROJECT_DIR$/resourses/druid.xml" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/dao/LeaveDao.java" />
+        <option value="$PROJECT_DIR$/resourses/mapper/leaveMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/leave/leaveDelServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/company/CompanyFindBySomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/leave/leaveFindBySomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/UserImpl.java" />
+        <option value="$PROJECT_DIR$/resourses/mapper/userMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/user/UserFindAllBySomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/ProductFindAllBySomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/ProductUpdateServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/impl/LeaveServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/leave/leaveAddServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/MapsServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/model/show/ProductModel.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/ProductAddServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/nav/NavFindByIdServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/ProductFindByIdServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/impl/NavServiceImpl.java" />
+        <option value="$PROJECT_DIR$/resourses/mapper/navMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/model/ProductModel.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/DetailPage/ProductTypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/DetailPage/ProductForDetailPageServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/show/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/CoachServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/DetailPage/ProductForDetailPageServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/ProductImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/DetailPage/ProductTypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/show/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/model/NewsModel.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/news/NewsTypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/news/NewsForDetailPageServlet.java" />
+        <option value="$PROJECT_DIR$/resourses/mapper/productMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/ProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/NewsServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/impl/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/service/INewsService.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/dao/NewsDao.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/NewsImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/news/DetailPage/NewsTypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/news/DetailPage/NewsForDetailPageServlet.java" />
+        <option value="$PROJECT_DIR$/resourses/mapper/newsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/cn/wanxi/servlet/LoginServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="72" />
+    <option name="y" value="51" />
+    <option name="width" value="1212" />
+    <option name="height" value="993" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jieduan-back07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jieduan-back07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jieduan-back07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jieduan-back07" type="462c0819:PsiDirectoryNode" />
+              <item name="resourses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jieduan-back07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jieduan-back07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jieduan-back07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jieduan-back07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wanxi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jieduan-back07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jieduan-back07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wanxi" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\jieduan-back07" />
+      <recent name="G:\jieduan-back07\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="jieduan-back07:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_jieduan-back07" />
+        <option name="HTTP_PORT" value="8082" />
+        <option name="JNDI_PORT" value="1091" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61061" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jieduan-back07:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="551ed6c1-03c5-41ac-8987-056ac1930b06" name="Default Changelist" comment="" />
+      <created>1605490848477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605490848477</updated>
+      <workItem from="1605490851870" duration="7564000" />
+      <workItem from="1605508107464" duration="8946000" />
+      <workItem from="1605574889821" duration="11602000" />
+      <workItem from="1605661529182" duration="24454000" />
+      <workItem from="1605748354020" duration="17354000" />
+      <workItem from="1605834169019" duration="6042000" />
+      <workItem from="1605852374237" duration="3130000" />
+      <workItem from="1605920363971" duration="4285000" />
+      <workItem from="1605938802280" duration="6510000" />
+      <workItem from="1606093601863" duration="5156000" />
+      <workItem from="1606370914968" duration="14491000" />
+      <workItem from="1606438676089" duration="19481000" />
+      <workItem from="1606526787257" duration="1954000" />
+      <workItem from="1606544009073" duration="10251000" />
+      <workItem from="1606649033407" duration="5986000" />
+      <workItem from="1606697736957" duration="9525000" />
+      <workItem from="1606716125713" duration="10559000" />
+      <workItem from="1606783659227" duration="7566000" />
+      <workItem from="1606802778104" duration="12040000" />
+      <workItem from="1606877317158" duration="671000" />
+    </task>
+    <task id="LOCAL-00001" summary="阶段back-07">
+      <created>1606877823501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606877823501</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="187567000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49807692" visible="true" weight="0.33953112" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5019231" side_tool="true" weight="0.26596606" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17730497" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32978722" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="阶段back-07" />
+    <option name="LAST_COMMIT_MESSAGE" value="阶段back-07" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/train/TrainEditServlet.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>productDao.findByIdForDetailPage(productModel)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>findByIdForDetailPage(productModel)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>iProductService.findByIdForDetailPage(productModel)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/nav/NavFindByIdServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourses/mapper/navMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/nav/NavEditServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/ProductAddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/ProductFindByIdServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="e#919#943#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/ProductUpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/company/CompanyEditServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/ProductFindAllBySomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/CoachServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/CompanyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/LeaveImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/MapsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/ProgramImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/NavImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="e#645#689#0" />
+            <element signature="e#1524#1580#0" />
+            <element signature="e#2050#2114#0" />
+            <element signature="e#2464#2543#0" />
+            <element signature="e#3808#3866#0" />
+            <element signature="e#5458#5538#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/model/ProductModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/jieduan-back07/mapper/productMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/util/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/ProductImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#613#692#0" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1980#2027#0" />
+            <element signature="e#2882#2933#0" />
+            <element signature="e#3654#3701#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/show/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/news/NewsDelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/jieduan-back07/mapper/newsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/jieduan-back07/com/cn/wanxi/servlet/news/DetailPage/NewsTypeServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <folding>
+            <element signature="e#0#1737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/ProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/model/NewsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/INewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/NewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/impl/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/NewsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/DetailPage/ProductTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/dao/impl/UserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourses/mapper/productMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="75" column="83" lean-forward="true" selection-start-line="75" selection-start-column="83" selection-end-line="75" selection-end-column="83" />
+          <folding>
+            <element signature="e#3545#3549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/product/DetailPage/ProductForDetailPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="49" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/news/DetailPage/NewsTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/show/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/NewsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourses/mapper/newsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="e#3198#3202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/UserRegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/news/DetailPage/NewsForDetailPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/train/TrainEditServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/impl/CompanyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="43" column="71" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/ICompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/company/CompanyAddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/company/CompanyDelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/show/CompanyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/service/show/CoachService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cn/wanxi/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>jieduan-back07:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jieduan-back07</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-fileupload-1.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
